@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>راما - مراقب هوشمند سلامت و آرامش زنان</title>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #e8eaf6;
+            text-align: center;
+            padding: 2em 0;
+        }
+        .hero-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .hero-heading {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+        .hero-subheading {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            text-align: center;
+            max-width: 600px;
+        }
+        .cta-button {
+            background-color: #b39ddb;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 25px;
+            font-size: 1em;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .features-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .feature-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: calc(33.33% - 20px);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .feature-icon {
+            font-size: 2em;
+            color: #8e44ad;
+            margin-bottom: 15px;
+        }
+        .email-signup-section {
+            background-color: #f3e5f5;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .signup-message {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .signup-input {
+            width: 80%;
+            max-width: 400px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .signup-button {
+            background-color: #e8eaf6;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .privacy-note {
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="hero-section">
+        <h1 class="hero-heading">راما؛ مراقب هوشمند سلامت و آرامش زنان</h1>
+        <p class="hero-subheading">اپلیکیشنی جامع برای ثبت عادت ماهانه، روتین زندگی، پایش احساسات و آرامش جسم و روان؛ همه آنچه برای مراقبت از خود نیاز داری، در یک‌جا.</p>
+        <a href="#" class="cta-button">همین حالا به لیست انتظار بپیوند!</a>
+    </div>
+</header>
+
+<div class="features-section">
+    <div class="feature-card">
+        <i class="feature-icon fas fa-calendar-alt"></i>
+        <h3>پیگیری چرخه قاعدگی</h3>
+        <p>ثبت پریود و علائم، با تحلیل هوشمند و یادآورهای تخصصی.</p>
+    </div>
+    <div class="feature-card">
+        <i class="feature-icon fas fa-envelope"></i>
+        <h3>ارسال پیام به همراه</h3>
+        <p>با اجازه شما، وضعیت را در مناسبت‌های خاص به شریک یا دوست اعلام کن.</p>
+    </div>
+    <div class="feature-card">
+        <i class="feature-icon fas fa-running"></i>
+        <h3>ثبت فعالیت‌ها و سبک زندگی</h3>
+        <p>پیگیری ورزش، خواب، آب و تغذیه؛ با پیشنهادهای سالم و اختصاصی.</p>
+    </div>
+    <div class="feature-card">
+        <i class="feature-icon fas fa-heart"></i>
+        <h3>ثبت احساسات و سلامت روان</h3>
+        <p>ثبت حال روحی و روانی، همراهی هوشمند برای شادابی و آرامش ذهن.</p>
+    </div>
+    <div class="feature-card">
+        <i class="feature-icon fas fa-robot"></i>
+        <h3>دستیار هوش مصنوعی سلامت زنان</h3>
+        <p>مشاوره فوری، توصیه‌های اختصاصی و اتصال آسان به پزشک در صورت نیاز.</p>
+    </div>
+</div>
+
+<!-- <div class="email-signup-section">
+    <div class="signup-message">جزو اولین کاربران راما باش! ایمیلت رو وارد کن تا نسخه آزمایشی را زودتر از همه دریافت کنی.</div>
+    <input type="email" class="signup-input" placeholder="ایمیل شما">
+    <a href="#" class="signup-button">ثبت‌نام</a>
+    <div class="privacy-note">ایمیل شما فقط برای اطلاع‌رسانی انتشار اپلیکیشن استفاده می‌شود.</div>
+</div> -->
+<!-- <div class="email-signup-section">
+    <form method="post" action="{% url 'landing_page' %}">
+        {% csrf_token %}
+        <div class="signup-message">جزو اولین کاربران راما باش! ایمیلت رو وارد کن تا نسخه آزمایشی را زودتر از همه دریافت
+            کنی.</div>
+        {{ form.email }}
+        <button type="submit" class="signup-button">ثبت‌نام</button>
+        <div class="privacy-note">ایمیل شما فقط برای اطلاع‌رسانی انتشار اپلیکیشن استفاده می‌شود.</div>
+    </form>
+</div> -->
+
+<div class="email-signup-section">
+    {% if not success_message %}
+        <form method="post" action="{% url 'landing_page' %}">
+            {% csrf_token %}
+            <div class="signup-message">جزو اولین کاربران راما باش! ایمیلت رو وارد کن تا نسخه آزمایشی را زودتر از همه دریافت
+کنی.</div>
+            {{ form.email }}
+            <button type="submit" class="signup-button">ثبت‌نام</button>
+        </form>
+    {% endif %}
+    
+    {% if success_message %}
+        <div class="success-message">{{ success_message }}</div>
+    {% endif %}
+
+    <div class="privacy-note">ایمیل شما فقط برای اطلاع‌رسانی انتشار اپلیکیشن استفاده می‌شود.</div>
+</div>
+
+<footer>
+    &copy; 2023 راما. All rights reserved.
+</footer>
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
