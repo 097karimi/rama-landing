@@ -2,7 +2,9 @@
 
 **Rama** is a comprehensive and intelligent assistant for women’s health and wellness, focused on scientific, holistic lifestyle tracking, mental health support, and personalized care powered by AI.
 
-![rama app banner](https://your-app-image-link.com) <!-- Optional: Add an image/banner for your project -->
+---
+
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fe512f1a-fe61-41cf-966f-9404c423f145" style="margin: 20px;">
 
 ---
 
